@@ -1,4 +1,4 @@
-# WP-Docker - WordPress Docker Compose
+# WP-Docker : WordPress Docker Compose
 
 Easy WordPress development with Docker and Docker Compose.
 
@@ -28,8 +28,8 @@ Edit the `.env` file to change  MySQL root password and WordPress database name.
 ```
 # Database Configuration
 DB_ROOT_PASSWORD='Root_password'
-DB_NAME='Namedatabase'
-DB_USER='uername'
+DB_NAME='Name_database'
+DB_USER='username'
 DB_PASSWORD='password'
 
 ```
