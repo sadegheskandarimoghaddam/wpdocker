@@ -1,15 +1,5 @@
 services:
-  webserver: 
-    depends_on:
-      - wordpress
-    image: php:apache
-    container_name: web_wordpress
-    volumes:
-     - ./wp-content:/var/www/html
-    ports:
-       - 8088:80
-    networks:
-      - wordpress-network
+
   db:
     image: mysql:latest
     container_name: db_wordpress
